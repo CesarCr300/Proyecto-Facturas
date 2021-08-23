@@ -7,7 +7,8 @@
       </ext:UBLExtension>      
    
 		<ext:UBLExtension>
-			<ext:ExtensionContent><ds:Signature Id="SignSUNAT"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>t/2Ml7HlChqcw95q5VJdkH66G1o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jlFwogWh9aoHiS9DCva6XnXnvVHSug6FnN8aOFyLnG/e3KCPvLkvKM5OId2sb6Ker+cabyOpaatF
+			<ext:ExtensionContent><ds:Signature Id=""><ds:SignedInfo><ds:CanonicalizationMethod Algorithm=""/><ds:SignatureMethod Algorithm="
+         "/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm=""/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>t/2Ml7HlChqcw95q5VJdkH66G1o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>jlFwogWh9aoHiS9DCva6XnXnvVHSug6FnN8aOFyLnG/e3KCPvLkvKM5OId2sb6Ker+cabyOpaatF
 eKa0fIN0FGw5HxrqNYxhYCfxuQ42x2m5zgpFiX1oVP3tqt5SmTIASmaqHqmmtJyvYP2QdQXQO1RI
 w6f74QYiq7KYmp4txzJtl9yK4HUuLM6zLRnuObCsICjVP0lhvSQZfbWO2BbLzHDXszQsrH7mtMmD
 GWU+YCea0m9jT2awuhpA0KnsKAQ8CPkCbQV6wHy7v+0XiQ0LlfaNyym3/xEvuaqziDzERXqLHWKM
@@ -59,7 +60,7 @@ eQ+UonH34nMfdnbHuVu7uZpU1mo1AHolG2bOL3sd3j4jTzAaRC22SQ04ACBv0g==</ds:X509Certifi
    <cbc:ID>E001-1286</cbc:ID>
    <cbc:IssueDate>2021-08-19</cbc:IssueDate>
    <cbc:IssueTime>13:50:44.0Z</cbc:IssueTime>
-      <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
+      <cbc:InvoiceTypeCode listAgencyName="PE: " listID="0101" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">01</cbc:InvoiceTypeCode>
       <cbc:Note languageLocaleID="1000"><![CDATA[SON:   OCHOCIENTOS NOVENTA Y 41/100  SOLES]]></cbc:Note>
       <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
       <cac:Signature>
@@ -78,13 +79,13 @@ eQ+UonH34nMfdnbHuVu7uZpU1mo1AHolG2bOL3sd3j4jTzAaRC22SQ04ACBv0g==</ds:X509Certifi
    <cac:AccountingSupplierParty>
       <cac:Party>
          <cac:PartyIdentification>
-            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20324511955</cbc:ID>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20202020200</cbc:ID>
          </cac:PartyIdentification>
          <cac:PartyName>
             <cbc:Name><![CDATA[-]]></cbc:Name>
          </cac:PartyName>
          <cac:PartyLegalEntity>
-            <cbc:RegistrationName><![CDATA[INV. AGROP. SANTA LUCIA S.R.LTDA]]></cbc:RegistrationName>
+            <cbc:RegistrationName><![CDATA[DISTR]]></cbc:RegistrationName>
             <cac:RegistrationAddress>
                <cbc:ID schemeAgencyName="PE:INEI" schemeName="Ubigeos">110101</cbc:ID>
                <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>     
@@ -105,10 +106,10 @@ eQ+UonH34nMfdnbHuVu7uZpU1mo1AHolG2bOL3sd3j4jTzAaRC22SQ04ACBv0g==</ds:X509Certifi
    <cac:AccountingCustomerParty>
       <cac:Party>
          <cac:PartyIdentification>
-            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20601642311</cbc:ID>
+            <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20</cbc:ID>
          </cac:PartyIdentification>
          <cac:PartyLegalEntity>
-                        <cbc:RegistrationName><![CDATA[RESTAURANTE PLAZA 125 E.I.R.L.]]></cbc:RegistrationName>
+                        <cbc:RegistrationName><![CDATA[EMPRESA1]]></cbc:RegistrationName>
                              </cac:PartyLegalEntity>
       </cac:Party>
    </cac:AccountingCustomerParty>   

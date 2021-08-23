@@ -1,9 +1,11 @@
 from xml.dom import minidom
 import os
 import pandas
+def obtener_lista_archivos(origen):
+    return os.listdir(facturasOrigen)
 
 facturasOrigen = "facturas"
-facturas = os.listdir(facturasOrigen)   #listaDeArchivos
+facturas = obtener_lista_archivos(facturasOrigen)  #listaDeArchivos
 
 listaEmpresas = []
 consumoDeEmpresas = []
